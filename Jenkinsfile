@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupère le code depuis le dépôt GitHub
-                git branch: 'main', url: 'https://github.com/yourusername/yourrepository.git'
+                git branch: 'main', url: 'https://github.com/Mohamed23012/Devops.git'
             }
         }
         stage('Compile') {
